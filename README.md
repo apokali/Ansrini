@@ -25,8 +25,7 @@ msmarco-docs.trec.gz 100%[====================>]   7.92G  3.73MB/s    in 40m 40s
 $ sh target/appassembler/bin/IndexCollection -threads 1 -collection CleanTrecCollection \
  -generator DefaultLuceneDocumentGenerator -input collections/msmarco-doc \
  -index indexes/msmarco-doc/lucene-index-msmarco -storePositions -storeDocvectors -storeRaw
- 
->  -index indexes/msmarco-doc/lucene-index-msmarco -storePositions -storeDocvectors -storeRaw
+
 2021-08-11 21:20:46,053 INFO  [main] index.IndexCollection (IndexCollection.java:643) - Setting log level to INFO
 2021-08-11 21:20:46,057 INFO  [main] index.IndexCollection (IndexCollection.java:646) - Starting indexer...
 2021-08-11 21:20:46,057 INFO  [main] index.IndexCollection (IndexCollection.java:647) - ============ Loading Parameters ============
